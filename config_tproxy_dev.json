@@ -51,7 +51,7 @@
   {
     "type": "mixed",
     "listen": "0.0.0.0",
-    "listen_port": 2080,
+    "listen_port": 7895,
     "sniff": true,
     "users": "admin",
     "password": "LA20164.14"
