@@ -52,10 +52,9 @@
     "type": "mixed",
     "tag": "mixed-in",
     "listen": "0.0.0.0",
-    "listen_port": 7895,
-    "sniff": true,
-    "users": "admin",
-    "password": "LA20164.14"
+    "listen_port": 7895,  
+    "users": [],
+    "set_system_proxy": false
   }
 ],
 
