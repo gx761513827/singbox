@@ -56,7 +56,6 @@
     "tcp_fast_open": true,
     "udp_fragment": true,
     "udp_timeout": "5m",
-    "users": []
   }
 ],
 
