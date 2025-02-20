@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "www.qichiyu.com",
+        "kejilion.pro",
+        "icloudnative.io",
+        "iwanlab.com",
+        "wiki.metacubex.one",
+        "bulianglin.com",
+        "jdssl.top",
+        "pcbtech.tk",
+        "blogger.com",
+        "cmliussss.com",
+        "idev.dev",
+        "kejilion.blogspot.com"
+      ]
+    }
+  ]
+}
