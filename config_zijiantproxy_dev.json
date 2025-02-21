@@ -40,13 +40,13 @@
     "type": "http",
     "tag": "http-in",
     "listen": "0.0.0.0",
-    "listen_port": 7895
+    "listen_port": 6080
   },
   {
     "type": "tproxy",
     "tag": "tproxy-in",
     "listen": "0.0.0.0",
-    "listen_port": 6080
+    "listen_port": 7895
   }
 
 ],
