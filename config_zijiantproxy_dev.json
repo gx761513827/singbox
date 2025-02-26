@@ -53,10 +53,13 @@
 
 
   "outbounds": [
-    { "tag": "🚀 节点选择", "type": "selector", "outbounds": ["♻️ 自动选择", "🇯🇵 日本节点", "🆓 serv00argo", "🇺🇲 美国节点"] },
-    { "tag": "🇯🇵 日本节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇯🇵|JP|jp|日本|日|Japan"] }] },
+    { "tag": "🚀 节点选择", "type": "selector", "outbounds": ["♻️ 自动选择", "🇯🇵 日本节点", "🆓 serv00argo", "🇺🇲 美国节点","🇸🇬 狮城节点", "🇰🇷 韩国节点", "🇨🇳 台湾节点"] },
+    { "tag": "🇯🇵 日本节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan"] }] },
     { "tag": "🆓 serv00argo", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["FR|Contabo|s16"] }] },
-    { "tag": "🇺🇲 美国节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇺🇸|US|us|洛杉矶|美|United States"] }, { "action": "exclude", "keywords": ["香港|港|HK|hk|HongKong"] }] },
+    { "tag": "🇨🇳 台湾节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["台|新北|彰化|TW|Taiwan"] }] },
+    { "tag": "🇸🇬 狮城节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["新加坡|坡|狮城|SG|Singapore"] }] },
+    { "tag": "🇰🇷 韩国节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["KR|Korea|KOR|首尔|韩|韓"] }] },
+    { "tag": "🇺🇲 美国节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States"] }, { "action": "exclude", "keywords": ["香港|港|HK|hk|HongKong"] }] },
     { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 },
     { "tag": "💾 PT", "type": "selector", "outbounds": ["🎯 全球直连", "🚀 节点选择"] },
     { "tag": "✈️ speedtest", "type": "selector", "outbounds": ["🚀 节点选择", "🆓 serv00argo", "🎯 全球直连"] },
